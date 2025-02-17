@@ -1,0 +1,263 @@
+body{
+    justify-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 97vW;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.header{
+    height: 48vh;
+    max-width: 98vw;
+    margin: 0px 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+    justify-content: space-between;
+}
+
+.area-logo{
+    margin: 25px 0;
+    width: 40%;
+    justify-items: center;
+}
+.logo-img{
+    margin-bottom: 10px;    
+}
+
+.titulo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-items:baseline;
+}
+.nome{
+    margin: 50px 50px 10px 0;
+    font-size: 50px;
+    font-weight: 600;
+    color: blueviolet;
+    text-align: center;
+    height:40%;
+    line-height: 120%;
+}
+
+.slogan{
+    margin-right: 50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: darkblue;
+}
+
+/* BEM VINDO À ASSOCIAÇÃO*/
+
+.area-bem-vindo{
+    max-width: 98vw;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda{
+    display: block;
+    width: 60%;
+    justify-items: center;
+}
+
+.texto-bem-vindo{
+    margin: 20px 10px 10px 30px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    height: 40%;
+}
+
+.botao-cadastrar {
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(to bottom, #008000, rgb(0, 58, 0));
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse (de pink para verde) */
+.botao-cadastrar:hover {
+    background: linear-gradient(to bottom, rgb(0, 58, 0), #008000);
+}
+
+.botao-cadastrar:hover{
+    color: #ffffff;
+    background-color: darkgreen;
+}
+
+.area-imagem{
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items:baseline;
+}
+.imagem-bem-vindo{
+    height: 350px;
+}
+
+/* SOBRE A ASSOCIAÇÃO*/
+
+.area-sobre-associação{
+    padding-top: 0px;
+    max-width: 98vw;
+    height: 270px;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.titulo-sobre-associação{
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    color: darkblue;
+}
+
+.subtitulos{
+    display: flex;
+    width: 90%;
+    height: 230px;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.missao{
+    width: 45%;
+    height: 90%;
+}
+.titulo-missao{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: darkblue;
+}
+
+.texto-missao{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.valores{
+    width: 45%;
+    height: 90%;
+}
+
+.titulo-valores{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: darkblue;
+}
+
+.texto-valores{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.area-problemas-distrito{
+    margin-top: 20px;
+    max-width: 100wh;
+    height: 1000 px;
+    justify-items: center;
+}
+
+.problemas-distrito{
+    max-width: 90%;
+    margin-bottom: 20px;
+    border: black 1px solid;
+    background-color:#fdc1cb;
+}
+.problemas{
+    display: flex;
+    flex-direction: row;
+}
+.titulo-problemas{
+    width: 90%;
+    height: 50px;
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    color: darkblue;
+}
+
+.area-problemas-distrito .imagem-problemas{
+    width: 250px;
+    margin-right: 20px;
+}
+
+.titulo-descricao{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    color: #b30101;
+}
+
+.descricao-problema{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    width: 70%;
+    line-height: 115%;
+}
+
+.solucao{
+    padding: 0 20px 20px 20px;
+    display:block;
+    flex-direction:column;
+    background-color:rgb(193, 245, 193)
+}
+
+.titulo-solucao{
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.descricao-solucao{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    width: 70%;
+    line-height: 115%;
+}
