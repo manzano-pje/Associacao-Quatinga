@@ -91,6 +91,22 @@ header{
 }
 
 @media(max-widht=360px){
+
+    header{
+        background-color: #008000;
+    }
+    .titulo{
+        font-size: 0.15em;
+        align-items: center;
+    }
+    .nome{
+        height: 30%;
+        background-color: #b30101;
+    }
+    .slogan{
+        font-size: 1.85em;
+        background-color: aqua;
+    }
 }
 
 
