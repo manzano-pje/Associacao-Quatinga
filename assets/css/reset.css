@@ -1,0 +1,53 @@
+/* Reset CSS - Baseado em Eric Meyer */
+
+/* Remove margens, paddings e bordas padrão */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Remove decoração de lista e fonte padrão */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove decoração de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Corrige estilos de fontes e espaçamentos */
+body, button, input, textarea {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    background: #fff;
+    color: #000;
+}
+
+/* Define imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reseta elementos semânticos do HTML5 para browsers antigos */
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+
+/* Remove estilos padrão do botão */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove aparência padrão do campo de entrada */
+input, textarea {
+    outline: none;
+}
