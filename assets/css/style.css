@@ -74,7 +74,7 @@ header{
 
 @media(max-widht:480px){
     header{
-        background-color: #008000;
+        background-color: #000;
     }
     .titulo{
         font-size: 0.15em;
@@ -93,7 +93,7 @@ header{
 @media(max-widht:360px){
 
     header{
-        background-color: #008000;
+        background-color: #ff00000;
     }
     .titulo{
         font-size: 0.15em;
